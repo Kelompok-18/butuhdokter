@@ -17,7 +17,7 @@
 <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script><!-- bootstrap java script -->
 <!-- ukuran logo/feather -->
 
-<link rel="stylesheet" href="depan.css">
+<link rel="stylesheet" href="masuk.css">
 
 </head>
 <!-- start bar atas -->
@@ -99,10 +99,8 @@
             
             <div class = "vertical"></div>
 
-            <div>
-              <form action="masuk.html"POST> 
+            <div> 
             <button type="submit" class="btn btn-outline-primary ml-3">Masuk</button>
-            </form>
             </div>
 
             <div>
@@ -113,31 +111,73 @@
     </nav>
 
     <!-- batas navbar1 -->
+    <hr>
+    <section>
+    <div class="section_login">
+        <div class="container">
+            <div class="login_box">
+                <h4>Masuk Ke Akun Anda</h4>
+                <div class="form_top">
+                    <form action="depanmasuk.html"POST>
+                        <input type="hidden" name="_token" value="j9phrTbfN8pIUFMgjBwFRVCWbrRQvrMO3yDHGhZm">
+                        <div class="form_box">
+                            <span class="form_title">Email</span>
+                            <input type="text" name="email" placeholder="nama@email.com" required="">
+                            
+                        </div>
+                        <div class="form_box">
+                            <span class="form_title">Password</span>
+                            <input type="password" name="password" placeholder="********" required="">
+                            
+                        </div>
+                        <div class="form_box">
+                            <a href="https://www.bookingdokter.com/forgot_password" class="forget_pass">Lupa password</a>
+                        </div>
+                        <div class="form_box">
+                            <button type="submit" class="blue_btn" style="margin-bottom: 10px;">Login
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <footer>
+                    <div class="container">
+                        <div class="footer_left">
+                            <img src="https://www.bookingdokter.com/web/images/logo_white.png">
+                            <div class="footer_desc">
+                                <p>PT. SOLUSI RESERVASI SEHAT<br>
+                                Customer Service<br>
+                                <a href="tel:+628557772121">+62 855 777 2121</a><br>
+                                <a href="mailto:cs@bookingdokter.com">cs@bookingdokter.com</a></p>
+                            </div>
+                        </div>
+                        <div class="footer_nav">
+                            <ul>
+                                <li><a href="https://www.bookingdokter.com/cari-dokter">Cari dokter</a></li>
+                                <li><a href="https://www.bookingdokter.com/article">Info Sehat</a></li>
+                                <li><a href="https://www.bookingdokter.com/about">Tentang Kami</a></li>
+                                <li><a href="https://www.bookingdokter.com/contact">Hubungi Kami</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_sosmed">
+                            <span>Follow Us</span>
+                            <a href="https://www.facebook.com/bookingdokter" target="blank_" class="sosmed_fb">Facebook</a>
+                            <a href="https://www.instagram.com/bookingdokter" target="blank_" class="sosmed_ig">Instagram</a>
+                        </div>
+                        <div class="cr_box">
+                            <span>© 2020 BookingDokter. All rights reserved.</span> 
+                            <a href="https://www.bookingdokter.com/ketentuan-layanan">Terms &amp; Conditions</a>
+                            <a href="https://www.bookingdokter.com/kebijakan-privasi">Privacy Policy</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
     
-    <nav class="navbar-expand-xlg navbar-custom"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
-        <div class="hero">
-        <div class="container-hero">
-            <div class="hero-content">
-                <div class="hero-content-inner" style="background-image: url(img/dokterf.png);">
-            <h1 class="hero-title px-5 px-5">Atur Janji Jadi Mudah</h1>
-            <h2 class="hero-text px-5">Layanan Booking Mempermudah Masyarakat</h2>
-            <form class="form-inline waves-light px-5"style="width: 100%;"mdbRippleRadius><!--width=ukuran bar-->
-                <input class="form-control ml-5"style="width: 60%;"type="text"placeholder="Cari Dokter, Rumah Sakit, Spesialis, dll.">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                  <i data-feather="search"></i>
-                  
-                </button>
-                </form>
-            <!-- kotak isi -->
-        </div>
-        </div>
-        </div>
-        </div>
-        </nav>
-            
+    </section>
 
         <!-- batas navbar2 -->
-
+        
     <script src="https://unpkg.com/feather-icons"></script>
     <script>
       feather.replace()
@@ -145,7 +185,3 @@
     </body>
 
     </html>
-
-
-
-
