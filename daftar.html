@@ -17,7 +17,7 @@
 <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script><!-- bootstrap java script -->
 <!-- ukuran logo/feather -->
 
-<link rel="stylesheet" href="masuk.css">
+<link rel="stylesheet" href="daftar.css">
 
 <!--facebook-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -129,27 +129,49 @@
 <form action="/action_page.php" method="post" >
   <div class="container">
     <br><img src="img/butuhdokter3.png" class="imgtrycenter"><br>
-    <h4 class="z">Masuk Akun</h4>
+    <h4 class="z">Daftar Akun</h4>
   </div>
 
   <div class="container">
-    <label for="uname" class="c"><b>Email</b></label><br>
-    <input type="text1" placeholder="Enter Email" name="uname" required>
-<br><br>
+    <!--<label for="uname" class="c"><b>Username</b></label><br>
+    <input type="text1" placeholder="Enter Username" name="uname" required>
+<br>
     <label for="psw" class="d"><b>Password</b></label><br>
     <input type="password" placeholder="Enter Password" name="psw" required>
+<br>-->
+    <label for="uname" class="c"><b>Nama Lengkap</b></label><br>
+    <input type="text1" placeholder="Nama Lengkap" name="uname" required>
+    <br><br>
+    <form action="/action_page.php">
+    <label for="phone" class="c"><b>Nomor HP</b></label><br>
+    <input type="tel" id="phone" name="phone" placeholder="Nomor HP (12 digit)" pattern="[0-9]{12}" required>
+    </form>
+    <br><br>
+    <label for="uname" class="c"><b>Email</b></label><br>
+    <input type="text1" placeholder="Email" name="uname" required>
+    <br><br>
+    <form action="/action_page.php">
+      <label for="birthday" class="c"><b>Tanggal Lahir</b></label><br>
+      <input type="date" id="birthday" name="birthday">
+    </form>
+    <br>
+    <label for="psw" class="d"><b>Password</b></label><br>
+    <input type="password" placeholder="Password" name="psw" required>
 <br><br>
-    <button type="submit" class="btn1">Masuk</button><br>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Ingat Saya
-    </label>
+<label for="psw" class="d"><b>Konfirmasi Password</b></label><br>
+    <input type="password" placeholder="Konfirmasi Password" name="psw" required>
+<br><br>
+    <button type="submit" class="btn1">Daftar Sekarang</button><br>
+
   </div>
 
+  <!--
   <div class="x1" style="background-color:#f1f1f1">
     
-    <button type="btn1" class="cancelbtn">Kembali</button>
+    <button type="btn1" class="cancelbtn">Cancel</button>
     <span class="psw">Lupa <a href="#">Password?</a></span>
-  </div>
+  </div>-->
+
   
 <div class="x1">
   <hr>
@@ -170,6 +192,11 @@
     Google
   </button><br>
   </div>
+  <div class="container1">
+    
+    <span class="login">Sudah memiliki akun? <a href="#">Masuk ke akun Anda</a></span>
+    </div>
+    <br>
 
 </div>
 </form>
