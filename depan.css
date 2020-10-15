@@ -195,7 +195,7 @@
       text-transform: uppercase;
     }
     
-    .border {
+    .border1 {
       height: 2px;
       width: 40px;
       background: #ff9800;
@@ -239,8 +239,8 @@
     }
     
     .social-media i {
-      height: 15px;
-      width: 15px;
+      height: 40px;
+      width: 40px;
       margin: 20px 5px;
       padding: 10px;
       color: #fff;
@@ -271,3 +271,30 @@
         width: 100%;
       }
     }
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 50%;
+}
+
+.fa-twitter {
+  background: #1DA1F2;
+  color: white;
+  margin-left: 50%;
+}
+    
+.fa-instagram {
+   background: linear-gradient(to bottom left, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #F56040, #F77737, #FCAF45, #FFDC80);
+   color: white;
+   margin-left: 50%;
+}
+    
+.fa-google-plus {
+   background: #db4a39;
+   color: white;
+   margin-left: 50%;
+}
