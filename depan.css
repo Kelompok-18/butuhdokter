@@ -173,12 +173,12 @@
       box-sizing: border-box;
     }
     
-    h1 {
+    /*h1 {
       padding: 10px 0;
       font-size: 25px;
       color: #fff;
       text-transform: uppercase;
-    }
+    }*/
     
     .footer-items p {
       color: grey;
@@ -187,7 +187,7 @@
       line-height: 25px;
     }
     
-    h2 {
+    .h2footer {
       margin: 10px 0;
       color: grey;
       font-size: 16px;
@@ -297,4 +297,29 @@
    background: #db4a39;
    color: white;
    margin-left: 50%;
+}
+/*h1,2,3,4,5,6 box chat bersama dokter, cari dokter, dll*/
+.centerh6{
+  padding: 0px 0px 0px 100px;
+}
+/*----------------------------------*/
+/*--------------------css baru--------------------*/
+.col-sm{
+  width: 75%;/*box dokter*/
+  margin: auto;
+}
+/*.vertical { 
+  border-left: 1px solid black; 
+  height: 50px; 
+  position:static; 
+  left: 50%; 
+} */
+.bordersz {
+background-color: #fff;
+border: 3px solid rgb(243, 243, 243);
+height: 350px;
+
+}
+.colorinfo{
+  color: #2ecccc;
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Administrator</title>
+  <title>ButuhDokter</title>
   
   <!-- CSS Bootscrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -26,9 +26,9 @@
 <body>
     <!-- Bar Atas -->
     <nav class="navbar-expand-lg navbar-light bg-light border rounded"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button>-->
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -142,7 +142,7 @@
           <button class="button button2" style="width:25%"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
             <div class="row"><!-- row untuk gambar -->
               <div>
-                <h6>Chat Bersama Dokter</h6>
+                <h6 class="centerh6">Chat Bersama Dokter</h6>
               </div>
               <div class="col-sm text-right">
                 <i style="width:20px; height:20px" data-feather="message-square"></i>
@@ -153,7 +153,7 @@
           <button class="button button2" style="width:25%"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
             <div class="row"><!-- row untuk gambar -->
               <div>
-                <h6>Cari Dokter</h6>
+                <h6 class="centerh6">Cari Dokter</h6>
               </div>
               <div class="col-sm text-right">
                 <i style="width:20px; height:20px" data-feather="message-square"></i>
@@ -164,7 +164,7 @@
           <button class="button button2" style="width:25%"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
             <div class="row"><!-- row untuk gambar -->
               <div>
-                <h6>ButuhDokter Shop</h6>
+                <h6 class="centerh6">ButuhDokter Shop</h6>
               </div>
               <div class="col-sm text-right">
                 <i style="width:20px; height:20px" data-feather="shopping-cart"></i>
@@ -175,7 +175,7 @@
           <button class="button button2" style="width:25%"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
             <div class="row"><!-- row untuk gambar -->
               <div>
-                <h6>Review Dokter</h6>
+                <h6 class="centerh6">Review Dokter</h6>
               </div>
               <div class="col-sm text-right">
                 <i style="width:20px; height:20px" data-feather="smile"></i>
@@ -183,15 +183,39 @@
             </div>
           </button>
         </div>
+
+        
         <main>
           <article>
-            <h2>TITLE HEADING</h2>
-            <h3>Title Description - Mar 10, 2019</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur dolor blanditiis quae illum corporis minima voluptas id maiores ducimus inventore hic quasi sequi quidem nobis tempora accusantium sapiente nam amet voluptatum perferendis aliquid quibusdam, sed tenetur?</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>      
+            
+            <div class="col-sm"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+              <h2 class="colorinfo"><b>Info Kesehatan</b></h2>
+            <br>
+              <div class="row bordersz px-5"><!-- row untuk gambar -->
+                <div><!--no col-sm-->
+                  <br>
+            <img src="img/pijatrefleksi.jpg" width="400" height="300">
+            </div>
+            <div class="col-sm text-left">
+              <h3><b>Metode Pengobatan Tradisional</b></h3>
+              <h5 class="colorinfo">Manfaat Pijat Refleksi Bagi Kesehatan</h5>
+              <p>Pijat merupakan salah satu cara untuk menghilangkan capek dan pegal serta nyeri</p>
+              <p>pada tubuh. Jenis pijat sendiri ada bermacam-macam. Yang paling</p>
+              <p>banyak digemari masyarakat adalah pijat...</p>
+              <a href="infokesehatan.html"><u>Baca Selengkapnya</u></a>
+              
+            </div>
+
+          </div>
+          <br>
+            <hr>
+            <br>
+            </div>
+
           </article>
         </main>
-        
+      
+
         <div class="footer">
           <div class="inner-footer">
       
@@ -200,7 +224,7 @@
             </div>
       
             <div class="footer-items">
-              <h2>Site Map</h2>
+              <h2 class="h2footer">Site Map</h2>
               <div class="border1"></div>
               <ul>
                 <a href=""><li>Home</li></a>
@@ -212,25 +236,25 @@
             </div>
       
             <div class="footer-items">
-              <h2>Lainnya</h2>
+              <h2 class="h2footer">Lainnya</h2>
               <div class="border1"></div>
               <ul>
                 <a href=""><li>Privasi</li></a>
                 <a href=""><li>Iklan</li></a>
-                <a href=""><li>Gabung Tim HALODOKTER</li></a>
+                <a href=""><li>Gabung Tim BUTUHDOKTER</li></a>
                 <a href=""><li>Tim Editorial</li></a>
-                <a href=""><li>Proteksi HALODOKTER</li></a>
+                <a href=""><li>Proteksi BUTUHDOKTER</li></a>
               </ul>
             </div>
       
             <div class="footer-items">
-              <h2>Alamat Kami</h2>
+              <h2 class="h2footer">Alamat Kami</h2>
               <div class="border1"></div>
               <ul>
                 <li><i class="fa fa-map-marker" aria-hidden="true"></i>Jl. Letjen S. Parman No.1, RT.6/RW.16.</li>
-                <li></li>
+                
                 <li><i class="fa fa-phone" aria-hidden="true"></i>1234567890</li>
-                <li><i class="fa fa-envelope" aria-hidden="true"></i>support@HALODOKTER.com</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>support@butuhdokter.com</li>
               </ul>
               <div class="social-media">
                 <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -242,7 +266,7 @@
             
           </div>
           <div class="footer-bottom">
-            Hak Cipta &copy; HALODOKTER 2020.
+            Hak Cipta &copy; BUTUHDOKTER 2020.
           </div>
         </div>
 
