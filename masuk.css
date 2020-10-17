@@ -262,14 +262,14 @@ span.psw {
 .btn3:hover {
   opacity: 0.8;
 }
-.fa {
+/*.fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-}
+}ukuran text alamat*/
 
 .fa:hover {
     opacity: 0.7;
@@ -413,8 +413,9 @@ span.psw {
       height: 25px;
     }
     .ul2 {/*ul li*/
-      margin: 10px 0;
+      margin: 10px 0px 0px 0px;
       height: 25px;
+      
     }
 
     li i {
